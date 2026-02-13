@@ -1,3 +1,4 @@
+import authorPhoto from '../assets/me.jpg';
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence, useScroll, useSpring } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -430,7 +431,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-6 md:px-12 grid lg:grid-cols-2 gap-16 items-center">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={scaleIn} className="relative mx-auto lg:mx-0 order-2 lg:order-1">
             <div className="relative w-72 h-96 md:w-[420px] md:h-[500px] rounded-[2.5rem] overflow-hidden border border-white/10 p-2 bg-white/5 backdrop-blur-xl group">
-              <img src="https://images.unsplash.com/photo-1638983752157-052aa1f15bf1?w=800" alt="Gregory Pantazopoulos"
+              <img src={authorPhoto} alt="Gregory Pantazopoulos"
                 className="w-full h-full object-cover rounded-[2rem] grayscale-[0.8] opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105" />
             </div>
             {/* Stats Badge */}
