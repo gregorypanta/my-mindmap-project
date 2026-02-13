@@ -521,9 +521,9 @@ export default function LandingPage() {
             <span className="font-bold text-white tracking-wide">AI-Powered Mind</span>
           </div>
           <div className="flex gap-6 text-sm text-white/40">
-            <a href="#" className="hover:text-white transition-colors">Terms</a>
-            <a href="#" className="hover:text-white transition-colors">Privacy</a>
-            <a href="#" className="hover:text-white transition-colors">Contact</a>
+            <a href="#!" className="hover:text-white transition-colors">Terms</a>
+            <a href="#!" className="hover:text-white transition-colors">Privacy</a>
+            <a href="#!" className="hover:text-white transition-colors">Contact</a>
           </div>
           <p className="text-sm text-white/40">© {new Date().getFullYear()} Gregory Pantazopoulos. All rights reserved.</p>
         </div>
