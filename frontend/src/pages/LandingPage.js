@@ -498,7 +498,7 @@ export default function LandingPage() {
               <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform duration-300" />
             </button>
             <p className="mt-8 text-sm text-white/40 flex items-center justify-center gap-2">
-              <Lock className="w-4 h-4" /> Secure payment via Gumroad. Instant PDF access.
+              <Lock className="w-4 h-4" /> Secure payment via Gumroad. Instant E-Book(APP) access.
             </p>
           </motion.div>
         </div>
