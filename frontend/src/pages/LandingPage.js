@@ -1,4 +1,4 @@
-import authorPhoto from '../assets/me.jpg';
+import authorPhoto from '../me.jpg'; // Τα δύο αποσιωπητικά '..' σημαίνουν "βγες από τον φάκελο pages και ψάξε στο src"
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence, useScroll, useSpring } from "framer-motion";
 import { Link } from "react-router-dom";
