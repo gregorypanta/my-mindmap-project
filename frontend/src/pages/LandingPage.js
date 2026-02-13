@@ -262,7 +262,7 @@ export default function LandingPage() {
             </motion.div>
 
             <motion.div variants={fadeInUp} className="flex items-center justify-center lg:justify-start gap-8 text-sm text-white/50 font-medium">
-              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-emerald-400" /><span>Instant PDF Access</span></div>
+              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-emerald-400" /><span>Instant E-Book(Interactive APP) Access</span></div>
               <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-emerald-400" /><span>120+ Frameworks</span></div>
             </motion.div>
           </motion.div>
