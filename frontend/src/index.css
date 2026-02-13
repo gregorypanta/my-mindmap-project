@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Syne:wght@400;700;800&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --background: #050505;
+  --surface: #0F0F0F;
+  --text-primary: #EDEDED;
+  --text-secondary: #A1A1AA;
+  --accent-primary: #2563EB;
+  --border: #27272A;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--background);
+  color: var(--text-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+}
+
+.gradient-text {
+  background: linear-gradient(to bottom, #ffffff, rgba(255, 255, 255, 0.6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glow-blue {
+  box-shadow: 0 0 40px -10px rgba(37, 99, 235, 0.4);
+}
+
+.book-3d {
+  transform: perspective(1000px) rotateY(-15deg) rotateX(5deg);
+  transition: transform 0.5s ease;
+}
+
+.book-3d:hover {
+  transform: perspective(1000px) rotateY(-5deg) rotateX(2deg);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  border-color: rgba(37, 99, 235, 0.3);
+}
