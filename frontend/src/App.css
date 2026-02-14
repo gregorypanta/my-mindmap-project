@@ -1,0 +1,34 @@
+@keyframes aurora {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 0%;
+  }
+}
+
+.aurora-text {
+  background: linear-gradient(
+    120deg,
+    #60a5fa 0%,
+    #a78bfa 15%,
+    #f472b6 30%,
+    #34d399 45%,
+    #60a5fa 60%,
+    #818cf8 75%,
+    #f472b6 90%,
+    #60a5fa 100%
+  );
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: aurora 8s ease-in-out infinite;
+  filter: drop-shadow(0 0 30px rgba(139, 92, 246, 0.4));
+}
