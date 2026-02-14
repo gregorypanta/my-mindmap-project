@@ -239,8 +239,8 @@ export default function LandingPage() {
 
             <motion.h1 variants={fadeInUp} className="text-5xl md:text-7xl lg:text-[5.5rem] tracking-tighter font-extrabold leading-[1.05] mb-6">
               Upgrade Your <br className="hidden md:block"/>
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400 inline-block mt-2">
-                Mental OS.
+              <span className="aurora-text inline-block mt-2">
+               Mental OS.
               </span>
             </motion.h1>
 
